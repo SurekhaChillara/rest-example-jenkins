@@ -53,11 +53,17 @@
 		</plugins>
 	</build>
 
+	<repositories>
+		<repository>
+			<id>myMavenRepo.read</id>
+			<url>https://mymavenrepo.com/repo/XxrLNU9bFiobhLMdACBw/</url>
+		</repository>
+	</repositories>
+
 	<distributionManagement>
 		<repository>
-			<id>local.repo</id>
-			<name>Local Repo</name>
-			<url>C:\Users\Siva\.m2\repository</url>
+			<id>myMavenRepo.write</id>
+			<url>https://mymavenrepo.com/repo/tV3QUbeFfP7lvwQ8EKOc/</url>
 		</repository>
 	</distributionManagement>
 
