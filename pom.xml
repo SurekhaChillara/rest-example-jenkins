@@ -55,15 +55,15 @@
 
 	<repositories>
 		<repository>
-			<id>myMavenRepo.read</id>
-			<url>https://mymavenrepo.com/repo/XxrLNU9bFiobhLMdACBw/</url>
+			<id>myMavenRepo</id>
+			<url>${myMavenRepoReadUrl}</url>
 		</repository>
 	</repositories>
 
 	<distributionManagement>
 		<repository>
-			<id>myMavenRepo.write</id>
-			<url>https://mymavenrepo.com/repo/tV3QUbeFfP7lvwQ8EKOc/</url>
+			<id>myMavenRepo</id>
+			<url>${myMavenRepoWriteUrl}</url>
 		</repository>
 	</distributionManagement>
 
