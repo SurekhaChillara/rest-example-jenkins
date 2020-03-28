@@ -57,7 +57,7 @@
 		<repository>
 			<id>local.repo</id>
 			<name>Local Repo</name>
-			<url>${user.home}/.m2/repository</url>
+			<url>C:\Users\Siva\.m2\repository</url>
 		</repository>
 	</distributionManagement>
 
